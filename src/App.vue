@@ -7,7 +7,7 @@
 </template>
 
 <script setup>
-import { computed, onMounted, reactive, ref } from "vue";
+import { onMounted, reactive, ref } from "vue";
 import AwesomeForm from "./components/AwesomeForm.vue";
 // import { configList } from "./dsl.json";
 
