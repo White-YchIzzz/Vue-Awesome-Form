@@ -1,0 +1,52 @@
+{
+  "configList": [
+    {
+      "fieldName": "lotid",
+      "fieldProps": { "label": "Lot Id", "prop": "lotid" },
+      "controlName": "input",
+      "controlProps": { "placeholder": "Please input" }
+    },
+    {
+      "fieldName": "recipe",
+      "fieldProps": { "label": "Recipe", "prop": "recipe" },
+      "controlName": "select",
+      "controlProps": { "placeholder": "Please select", "clearable": true },
+      "options": [
+        { "label": "recipe1", "value": 0 },
+        { "label": "recipe2", "value": 1 },
+        { "label": "recipe3", "value": 2 },
+        { "label": "recipe4", "value": 3 },
+        { "label": "recipe5", "value": 4 }
+      ],
+      "events": {
+        "change": "fn1"
+      }
+    },
+    {
+      "fieldName": "technology",
+      "fieldProps": { "label": "Tech", "prop": "technology" },
+      "controlName": "input",
+      "controlProps": { "placeholder": "Please input" }
+    },
+    {
+      "fieldName": "layerList",
+      "fieldProps": { "label": "layerList", "prop": "layerList" },
+      "controlName": "select",
+      "controlProps": {
+        "placeholder": "Please select",
+        "multiple": true,
+        "clearable": true,
+        "collapse-tags": true,
+        "collapse-tags-tooltip": true,
+        "disabled": true
+      },
+      "options": [
+        { "label": "layer1", "value": 0 },
+        { "label": "layer2", "value": 1 },
+        { "label": "layer3", "value": 2 },
+        { "label": "layer4", "value": 3 },
+        { "label": "layer5", "value": 4 }
+      ]
+    }
+  ]
+}
